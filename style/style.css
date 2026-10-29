@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/YEKAN.TTF);
+}
+header{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+body{
+    direction: rtl;
+    font-family: yekan;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: rgba(169, 169, 169, 0.349);
+    height: 50px;
+}
+.menu a{
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: blueviolet;
+}
